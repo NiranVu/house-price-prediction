@@ -10,7 +10,7 @@ pipeline {
 
     environment{
         registry = 'niranvu/house-price-prediction-api'
-        registryCredential = 'dockerhub'      
+        registryCredential = 'dockerhub'
     }
 
     stages {
